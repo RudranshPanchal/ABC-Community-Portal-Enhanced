@@ -60,14 +60,16 @@ An upgraded version of the **ABC Community Portal**, focusing on enhanced proble
 1. Clone the repository:
    ```bash
    git clone https://github.com/RudranshPanchal/ABC-Community-Portal-Enhanced.git
-Open the project in Spring Tools Suite.
-Configure the database connection in application.properties:
-properties
-Copy code
-spring.datasource.url=jdbc:mysql://localhost:3306/abc_community
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-Run the application:
+2. Open the project in Spring Tools Suite.
+
+3. Configure the database connection in application.properties:
+
+    ```bash
+      spring.datasource.url=jdbc:mysql://localhost:3306/abc_community
+      spring.datasource.username=your_username
+      spring.datasource.password=your_password
+
+4. Run the application:
 
     ```bash
     mvn spring-boot:run
